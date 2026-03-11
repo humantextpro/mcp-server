@@ -1,0 +1,30 @@
+name: "@humantext/mcp-server"
+description: "AI text detection and humanization. Check if text sounds AI-generated and improve it to read naturally."
+icon: "https://humantext.pro/icon.png"
+category: "writing"
+tags:
+  - ai-detection
+  - text-humanizer
+  - writing
+  - content
+  - claude
+  - cursor
+  - windsurf
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      HUMANTEXT_API_KEY:
+        type: string
+        description: "API key from humantext.pro/api"
+    required:
+      - HUMANTEXT_API_KEY
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["-y", "@humantext/mcp-server"],
+      env: {
+        HUMANTEXT_API_KEY: config.HUMANTEXT_API_KEY
+      }
+    })
