@@ -136,7 +136,7 @@ The MCP server uses your [humantext.pro](https://humantext.pro/pricing) subscrip
 |--------|-----------|-----------------|
 | Basic  | $7.99/mo  | 5,000 words     |
 | Pro    | $19.99/mo | 15,000 words    |
-| Ultra  | $49.99/mo | 30,000 words    |
+| Ultra  | $39.99/mo | 30,000 words    |
 
 Both detection and humanization consume credits based on input word count.
 
