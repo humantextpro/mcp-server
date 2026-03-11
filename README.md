@@ -4,6 +4,10 @@ AI text detection and humanization tools for Claude Code, Cursor, Windsurf, and 
 
 Check if text sounds AI-generated and transform it to read naturally — without leaving your editor.
 
+<a href="https://glama.ai/mcp/servers/humantextpro/humantext-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/humantextpro/humantext-mcp-server/badge" alt="humantext-mcp-server MCP server" />
+</a>
+
 ## Quick Start
 
 ### 1. Get your API key
